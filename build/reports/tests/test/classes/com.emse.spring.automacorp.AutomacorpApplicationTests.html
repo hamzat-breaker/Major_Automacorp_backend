@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - AutomacorpApplicationTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>AutomacorpApplicationTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.emse.spring.automacorp.html">com.emse.spring.automacorp</a> &gt; AutomacorpApplicationTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.922s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">contextLoads()</td>
+<td class="success">0.922s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>16:53:13.843 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.emse.spring.automacorp.AutomacorpApplicationTests]: AutomacorpApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+16:53:13.944 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.emse.spring.automacorp.AutomacorpApplication for test class com.emse.spring.automacorp.AutomacorpApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.1)
+
+2024-06-05T16:53:14.316+02:00  INFO 12200 --- [    Test worker] c.e.s.a.AutomacorpApplicationTests       : Starting AutomacorpApplicationTests using Java 17.0.8.1 with PID 12200 (started by celni in D:\cours\2A\programmation_web_mobile_et_embarquee\final_assignment\automacorp_backend_Celine)
+2024-06-05T16:53:14.318+02:00  INFO 12200 --- [    Test worker] c.e.s.a.AutomacorpApplicationTests       : No active profile set, falling back to 1 default profile: &quot;default&quot;
+2024-06-05T16:53:15.286+02:00  INFO 12200 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-05T16:53:15.366+02:00  INFO 12200 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 67 ms. Found 5 JPA repository interfaces.
+2024-06-05T16:53:15.944+02:00  INFO 12200 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-06-05T16:53:16.182+02:00  INFO 12200 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:automacorp user=SA
+2024-06-05T16:53:16.185+02:00  INFO 12200 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-06-05T16:53:16.248+02:00  INFO 12200 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-05T16:53:16.336+02:00  INFO 12200 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-06-05T16:53:16.382+02:00  INFO 12200 --- [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-06-05T16:53:16.658+02:00  INFO 12200 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-05T16:53:16.718+02:00  WARN 12200 --- [    Test worker] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-05T16:53:17.612+02:00  INFO 12200 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+Hibernate: drop table if exists sp_building cascade 
+Hibernate: drop table if exists sp_heater cascade 
+Hibernate: drop table if exists sp_room cascade 
+Hibernate: drop table if exists sp_sensor cascade 
+Hibernate: drop table if exists sp_window cascade 
+Hibernate: drop sequence if exists sp_building_seq
+Hibernate: drop sequence if exists sp_heater_seq
+Hibernate: drop sequence if exists sp_room_seq
+Hibernate: drop sequence if exists sp_sensor_seq
+Hibernate: drop sequence if exists sp_window_seq
+Hibernate: create sequence sp_building_seq start with 1 increment by 50
+Hibernate: create sequence sp_heater_seq start with 1 increment by 50
+Hibernate: create sequence sp_room_seq start with 1 increment by 50
+Hibernate: create sequence sp_sensor_seq start with 1 increment by 50
+Hibernate: create sequence sp_window_seq start with 1 increment by 50
+Hibernate: create table sp_building (id bigint not null, outside_temperature_id bigint unique, name varchar(255) not null, primary key (id))
+Hibernate: create table sp_heater (heater_status_id bigint not null unique, id bigint not null, power bigint, room_id bigint not null, name varchar(255) not null, primary key (id))
+Hibernate: create table sp_room (floor integer not null, target_temperature float(53), building_id bigint not null, current_temperature_id bigint unique, id bigint not null, name varchar(255) not null, primary key (id))
+Hibernate: create table sp_sensor (sensor_value float(53), id bigint not null, name varchar(255) not null, sensor_type varchar(255) check (sensor_type in ('TEMPERATURE','POWER','STATUS')), primary key (id))
+Hibernate: create table sp_window (id bigint not null, room_id bigint, window_status_id bigint not null unique, name varchar(255) not null, primary key (id))
+Hibernate: alter table if exists sp_building add constraint FK6x3716krrxkqqcxwxjqlfvxqk foreign key (outside_temperature_id) references sp_sensor
+Hibernate: alter table if exists sp_heater add constraint FKtj3arc496fjrtnh2s1r6b6rm2 foreign key (heater_status_id) references sp_sensor
+Hibernate: alter table if exists sp_heater add constraint FKp2gyftujt9ysriwdlep7i9f9k foreign key (room_id) references sp_room
+Hibernate: alter table if exists sp_room add constraint FKf3ark47p7n6cf80cj4w0fl82p foreign key (building_id) references sp_building
+Hibernate: alter table if exists sp_room add constraint FK21fy8fcpiw09gon2gs1469aqf foreign key (current_temperature_id) references sp_sensor
+Hibernate: alter table if exists sp_window add constraint FKkmhyikmfiyrg6yewpwky7l5cw foreign key (room_id) references sp_room
+Hibernate: alter table if exists sp_window add constraint FKqdj6jbtn59whbpgt93n927yjn foreign key (window_status_id) references sp_sensor
+2024-06-05T16:53:17.671+02:00  INFO 12200 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-05T16:53:18.198+02:00  INFO 12200 --- [    Test worker] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-06-05T16:53:20.227+02:00  INFO 12200 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/console'. Database available at 'jdbc:h2:mem:automacorp'
+2024-06-05T16:53:20.232+02:00  INFO 12200 --- [    Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-06-05T16:53:20.611+02:00  INFO 12200 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@19e552a3, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5091456c, org.springframework.security.web.context.SecurityContextHolderFilter@742ce3ad, org.springframework.security.web.header.HeaderWriterFilter@7c4663ec, org.springframework.web.filter.CorsFilter@45c57dbd, org.springframework.security.web.csrf.CsrfFilter@199d1fb7, org.springframework.security.web.authentication.logout.LogoutFilter@2dba6013, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@10fef6da, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@1f94e1, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@22a5f12, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@56f3f9da, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3237522b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@73ffe7b0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@316975be, org.springframework.security.web.access.ExceptionTranslationFilter@3f976f43, org.springframework.security.web.access.intercept.AuthorizationFilter@2cbb9702]
+2024-06-05T16:53:20.629+02:00  INFO 12200 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@95f61c2, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2be9425f, org.springframework.security.web.context.SecurityContextHolderFilter@5f49c09d, org.springframework.security.web.header.HeaderWriterFilter@6f96d39f, org.springframework.web.filter.CorsFilter@41f05f1, org.springframework.security.web.authentication.logout.LogoutFilter@43f670f3, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1107cbd8, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@150eab74, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@57cd5cc9, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@610640e3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@c197f46, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4c5d934b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@25ee6683, org.springframework.security.web.access.ExceptionTranslationFilter@1a0b51e7, org.springframework.security.web.access.intercept.AuthorizationFilter@3a42610]
+2024-06-05T16:53:21.715+02:00  INFO 12200 --- [    Test worker] c.e.s.a.AutomacorpApplicationTests       : Started AutomacorpApplicationTests in 7.62 seconds (process running for 8.914)
+Hello, Spring!
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 8.5</a> at 5 juin 2024, 16:53:25</p>
+</div>
+</div>
+</body>
+</html>

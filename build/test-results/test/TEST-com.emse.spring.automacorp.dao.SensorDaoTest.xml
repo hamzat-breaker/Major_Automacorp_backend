@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.emse.spring.automacorp.dao.SensorDaoTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-06-05T14:53:24" hostname="HONOR_CELINE" time="0.01">
+  <properties/>
+  <testcase name="shouldFindASensorById()" classname="com.emse.spring.automacorp.dao.SensorDaoTest" time="0.01"/>
+  <system-out><![CDATA[2024-06-05T16:53:24.600+02:00  INFO 12200 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.emse.spring.automacorp.dao.SensorDaoTest]: SensorDaoTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-06-05T16:53:24.617+02:00  INFO 12200 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.emse.spring.automacorp.AutomacorpApplication for test class com.emse.spring.automacorp.dao.SensorDaoTest
+Hibernate: select se1_0.id,se1_0.name,se1_0.sensor_type,se1_0.sensor_value from sp_sensor se1_0 where se1_0.id=?
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

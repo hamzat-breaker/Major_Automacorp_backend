@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.emse.spring.automacorp.dto.RoomMapperTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-06-05T14:53:24" hostname="HONOR_CELINE" time="0.011">
+  <properties/>
+  <testcase name="shouldMapRoom()" classname="com.emse.spring.automacorp.dto.RoomMapperTest" time="0.011"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
